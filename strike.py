@@ -26,4 +26,4 @@ for pktNum in range(0,10000):
 
 #append packets to the list
 	strike.append(ARP_Strike)
-sendp(strike)
+sendpfast(strike)
