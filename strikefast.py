@@ -28,7 +28,7 @@ for pktNum in range(0,1000):
 	strike.append(UDP_Strike)
 try:
 	while 1:
-		sendp(strike)
-		#sendpfast(strike,pps=10000, mbps=1000)
+		#sendp(strike)
+		sendpfast(strike,pps=10000, mbps=1000)
 except KeyboardInterrupt: 
 	print ("User interruption")
